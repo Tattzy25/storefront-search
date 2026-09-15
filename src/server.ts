@@ -49,8 +49,7 @@ const searchCatalogInputSchema = z.object({
         .object({
           cursor: z
             .string()
-            .describe("Op
-aque cursor from a previous response. Pass the returned pagination.cursor as catalog.pagination.cursor to request the next page.")
+            .describe("Opaque cursor from a previous response. Pass the returned pagination.cursor as catalog.pagination.cursor to request the next page.")
             .optional(),
           limit: z
             .number()
