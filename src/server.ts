@@ -1,6 +1,6 @@
 import { McpServer } from "@modelcontextprotocol/server";
 import { createMcpHandler } from "agents/mcp/server";
-import storefrontMd from "./storefront.md?raw";
+import storefrontMd from "./storefrontsearch.md?raw";
 import { z } from "zod";
 
 const helloInputSchema = z.object({
